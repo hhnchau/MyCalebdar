@@ -90,7 +90,7 @@ public class CalendarMonthView extends FrameLayout implements View.OnClickListen
         //So sanh voi ngay hien tai -> khon cho pheo chon ngay qua khu
         // day < currentCalendar < day
 
-        if (isPas  ) {
+        if (isPast) {
 
         } else if (day.getMonth() != month) {
             dayView.setOtherMothTextColor();
